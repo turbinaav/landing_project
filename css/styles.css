@@ -871,7 +871,7 @@ header, footer {
     max-width: 883px;
     background: #181818;
     margin: -222.5px 278.5px;
-    opacity: 0.99;
+    opacity: 1;
     position: relative;
     z-index: 1;
 }
@@ -1013,6 +1013,7 @@ header, footer {
 @media screen and (max-width: 1299px) {
     .body {
         max-width: 375px;
+        margin: 0 auto;
     }
     
     nav {
